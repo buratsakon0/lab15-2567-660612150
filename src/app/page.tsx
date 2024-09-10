@@ -22,9 +22,8 @@ import {
   Title,
 } from "@mantine/core";
 
-import { Form, useForm, zodResolver } from "@mantine/form";
+import { useForm, zodResolver } from "@mantine/form";
 import { z } from "zod";
-import path from "path";
 
 const schema = z
   .object({
